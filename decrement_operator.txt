@@ -1,0 +1,14 @@
+//unary operator +,-,++(increment) ,--(decrement)
+		int x=1000,y=0;
+		y=--x;//predecrement
+		//x=x-1 1000-11
+		//y=x
+		System.out.println(x+" "+y);
+		int num1=100,num2=0;
+		num2=num1--;//postdecrement
+		//num2=num1
+		//num1=num1-1
+		System.out.println(num1+" "+num2);//101 101
+	    int z=2345;
+		System.out.println(--z);//predecrement
+		System.out.println(z);
